@@ -79,7 +79,7 @@ sign_InButton.addEventListener('click', () => {
             // Signed in 
             const user = userCredential.user;
             // alert("User successfully logged in with " + email);
-			location.href ='../My Portfolio/index.html'
+			location.href ='./My Portfolio/index.html'
         })
         .catch((error) => {
             const errorCode = error.code;
