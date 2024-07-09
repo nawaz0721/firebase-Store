@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Double Slider Sign in/up Form</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<div class="form_div">
+			<h1>Create Account</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your email for registration</span>
+			<input id="firstName" type="text" placeholder="First Name" required/>
+			<input id="lastName" type="text" placeholder="Last Name" required/>
+			<input id="age" type="number" placeholder="Age" required/>
+			<input id="profile" type="file" placeholder="Profile Image" required/>
+			<input id="createEmail" type="email" placeholder="Email" required/>
+			<input id="createPassword" type="password" placeholder="Password" required/>
+			<button id="sign_Up">Sign Up</button>
+		</div>
+	</div>
+	<div class="form-container sign-in-container">
+		<div class="form_div">
+			<h1>Sign in</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span>or use your account</span>
+			<input id="userEmail" type="email" placeholder="Email" required/>
+			<input id="userPassword" type="password" placeholder="Password" required/>
+			<a href="#">Forgot your password?</a>
+			<button id="sign_In">Sign In</button>
+		</div>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Welcome Back!</h1>
+				<p>To keep connected with us please login with your personal info</p>
+				<button class="ghost" id="signIn">Sign In</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Hello, Friend!</h1>
+				<p>Enter your personal details and start journey with us</p>
+				<button class="ghost" id="signUp">Sign Up</button>
+			</div>
+		</div>
+	</div>
+</div>
+  <script type="module"  src="app.js"></script>
+
+</body>
+</html>
